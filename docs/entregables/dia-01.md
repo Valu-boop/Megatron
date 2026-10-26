@@ -3,9 +3,9 @@ kaizen_dojo: "2026"
 formato: "Entregable diario G2"
 evidencia: "E1"
 dia: 1
-responsable_registro: "equipo"
+responsable_registro: "Abril"
 estado: "PENDIENTE"
-fecha: "AAAA-MM-DD"
+fecha: "26/10/2026"
 revision_docente: "PENDIENTE"
 ---
 
@@ -17,20 +17,20 @@ revision_docente: "PENDIENTE"
 
 | Campo obligatorio | Dato |
 |---|---|
-| Fecha y horario de esta sesión | [AAAA-MM-DD; HH:MM–HH:MM, 180 min] |
-| Nombre / alias del equipo | [kd26-mXX-equipoYY] |
-| Misión / plataforma | [M01 mini-sumo autónomo / M03 seguidor / M04 Tello Python / M05 AMR ROS 2] |
-| Objetivo verificable del robot (una frase) | [Acción + condiciones + éxito] |
-| **Dōjō asignado — campus, edificio y sala/taller exactos** | **[Campus ___ / Edificio ___ / Sala o taller ___ / Nº de laboratorio ___]** |
-| Puesto o zona dentro del dōjō | [Mesa, banco, espacio de vuelo, pista, dohyō o estación] |
-| Horario / reserva confirmada | [Fechas y bloque horario; quien la autorizó] |
-| Responsable del espacio y contacto institucional | [Nombre/cargo y canal institucional, sin publicar teléfonos privados] |
+| Fecha y horario de esta sesión | [26/10/2026  11:20] |
+| Nombre / alias del equipo | [Megatron] |
+| Misión / plataforma | [M01 mini-sumo autónomo - Github] |
+| Objetivo verificable del robot (una frase) | [Que se mueva + que lo sensores funcionen + pruebas funcionales] |
+| **Dōjō asignado — campus, edificio y sala/taller exactos** | **[Laboratorio de electronica]** |
+| Puesto o zona dentro del dōjō | [dohyō] |
+| Horario / reserva confirmada | [27 - 30 Oct de 9:00 a 12:00 am, Autorización: Camilo Duque] |
+| Responsable del espacio y contacto institucional | [Camilo Duque] |
 | Acceso, aforo y ajustes de accesibilidad | [Restricciones de ingreso, capacidad, adecuaciones necesarias] |
 | Salidas, botiquín, extintor y punto de reunión | [Ubicación real validada al llegar] |
 | Zonas segregadas por riesgo | [Vuelo / herramientas / tránsito AMR / ensayo de pista] |
 | Ubicación de materiales y resguardo nocturno | [Gabinete/estante/inventario; responsable] |
-| Plan de sustitución si falla el espacio | [Dōjō alternativo con autorización; no improvisar espacio de vuelo] |
-| Instructor o supervisor presente en la sesión | [@alias / nombre institucional] |
+| Plan de sustitución si falla el espacio | [Cubículos de Inge. ] |
+| Instructor o supervisor presente en la sesión | [Camilo / Camilo Duqe] |
 
 > ⛔ **No se permite avanzar a pruebas físicas sin dōjō concreto y autorización del responsable.** No inventar salón, número de laboratorio ni recursos que no hayan sido confirmados.
 
@@ -38,8 +38,9 @@ revision_docente: "PENDIENTE"
 
 | Alias GitHub | Rol inicial | Carta y frontera (D/S/E; F1–F4) | Alcances ID (1–3) | Kit personal (archivo) | Necesidad de apoyo o accesibilidad acordada |
 |---|---|---|---|---|---|
-| [@alias-1] | [Integración / documentación / seguridad / pruebas ...] | [D · F1 · D1] | [MS01, MS02] | [`../../participantes/alias/compromiso.md`](../../participantes/_plantilla/compromiso.md) | [Acordar con la persona sin registrar datos sensibles] |
-| [@alias-2] | [...] | [...] | [...] | [enlace] | [...] |
+| [Valu-boop] | [Integración ] | [D · F1 · D1] | [MS01, MS02] | [`../../participantes/alias/compromiso.md`](../../participantes/_plantilla/compromiso.md) | [Acordar con la persona sin registrar datos sensibles] |
+| [abrilgalvan] | [Integración] | [...] | [...] | [enlace] | [...] |
+| [danielSantino] | [Integración ] | [D · F1 · D1] | [MS01, MS02] | [`../../participantes/alias/compromiso.md`](../../participantes/_plantilla/compromiso.md) |
 
 **Acuerdo de colaboración:** [Cómo se toman decisiones, cómo se resuelven conflictos, apoyos senpai–kōhai, pausas y distribución equitativa de participación.]
 
@@ -95,11 +96,11 @@ Completar **cada recurso requerido**: estructura, electrónica, actuadores, sens
 
 | ID | Categoría | Material o recurso (especificación exacta: modelo, medida, versión o característica) | Cantidad requerida + unidad | Cantidad confirmada | Fuente/proveedor o dueño | Ubicación física o ruta digital | Responsable | Estado (disponible/reservado/falta) | Alternativa compatible | Día requerido |
 |---|---|---|---|---|---|---|---|---|---|---|
-| MAT-001 | [Robot/plataforma] | [Modelo preciso y compatibilidad] | [1 ud.] | [?] | [laboratorio/equipo] | [armario] | [@alias] | [por confirmar] | [alternativa] | [D1] |
-| MAT-002 | [Mecánica/electrónica/sensor] | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] |
-| MAT-003 | [Herramienta/seguridad/medición] | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] |
-| MAT-004 | [Software/datos/conectividad] | [SO + versión, ROS/Python/OpenCV o controlador, puerto/red] | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] |
-| MAT-005 | [Zona de pruebas] | [Pista/dohyō/marcadores/mapa; dimensiones y configuración] | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] |
+| MAT-001 | [Robot/plataforma] | [Mini sumo] | [1 ud.] | [?] | [laboratorio de electronica] | [CCI] | [Abril] | [disponible] | [Seguidor de linea] | [D1] |
+| MAT-002 | [Mecánica/electrónica/sensor] | [Arduino, sensores QTR, IR y motores] | [1 Arduino, 4 IR y 2 QTR y 2 motores] | [abril] | [CCi] | [Valentina] | [disponible] | [...] | [...] | [...] |
+| MAT-003 | [Herramienta/seguridad/medición] | [Homologador, multimetro] | [1 ud. de cada uno] | [...] | [abril] | [CCi] | [Abril] | [disponible] | [...] | [...] |
+| MAT-004 | [Software/datos/conectividad] | [arduino y puerto/red] | [1ud.] | [Santino] | [Computadora] | [Santino] | [disponible] | [...] | [...] | [...] |
+| MAT-005 | [Zona de pruebas] | [dohyō] | [1 ud.] | [Artemis] | [CCI] | [Valentina] | [Disponoble] | [...] | [...] | [...] |
 
 También disponible el archivo [`datos/inventario_materiales.csv`](../../datos/inventario_materiales.csv) para registrar muchos materiales sin agrandar esta tabla.
 
@@ -118,32 +119,32 @@ También disponible el archivo [`datos/inventario_materiales.csv`](../../datos/i
 
 | Bloqueante | A qué alcance afecta | Solución prevista / fecha y responsable | Impacto si no se resuelve |
 |---|---|---|---|
-| [material o software aún no validado] | [...] | [...] | [reducir alcance / simulación / replanificar] |
+| [Impresora sin disponibilidad] | [Parte mecanica] | [Imprimir en CTA] | [Replanificar] |
 
-**Materiales completos para ejecutar el Día 2:** [Sí / Parcial / No]. **Confirmado por:** [docente y responsable equipo] a [fecha/hora].
+**Materiales completos para ejecutar el Día 2:** [Sí]. **Confirmado por:** [Camilo Duque y Abril] a [26/10/2026 hora: 11:46].
 
 ## 6 · Kata 0 — exploración técnica de arranque (100–160 min)
 
 | Integrante/alcance | Pregunta técnica | Mini-prueba o prototipo de exploración | Resultado o error observado | Evidencia enlazada | Acción necesaria antes de D2 |
 |---|---|---|---|---|---|
-| [@alias / ID] | [qué quiero verificar] | [qué hice] | [qué ocurrió] | [commit/foto/log] | [acción] |
+| [Alias] | [¿El chasis es funcional?] | [Verificar impresion] | [qué ocurrió] | [commit/foto/log] | [acción] |
 
 **Integración entre subequipos:** [Qué interfaz se dejó validada: alimentación, dimensiones, tópicos, salida sensorial, etc.]
 
 ## 7 · Cierre: contrato técnico y puerta de salida E1 (160–180 min)
 
 - [ ] El objetivo colectivo tiene condición de éxito verificable.
-- [ ] Cada estudiante depositó **su kit Markdown original** en `participantes/<alias>/compromiso.md`.
-- [ ] Cada estudiante completó [E1 personal](../../participantes/_plantilla/dias/E1.md) y definió frontera, evidencia y alcance negociado.
-- [ ] El inventario está **completo** y cada recurso indica cantidad, especificación, disponibilidad y responsable.
-- [ ] Se asignó **dōjō específico** con edificio, salón/taller, horarios, supervisión y autorización.
+- [X] Cada estudiante depositó **su kit Markdown original** en `participantes/<alias>/compromiso.md`.
+- [X] Cada estudiante completó [E1 personal](../../participantes/_plantilla/dias/E1.md) y definió frontera, evidencia y alcance negociado.
+- [X] El inventario está **completo** y cada recurso indica cantidad, especificación, disponibilidad y responsable.
+- [X] Se asignó **dōjō específico** con edificio, salón/taller, horarios, supervisión y autorización.
 - [ ] Se inspeccionaron riesgos, paro y condiciones de seguridad de la plataforma.
-- [ ] Se identificaron dependencias y bloqueos del Día 2; están bajo control o se ajustó la misión.
+- [X] Se identificaron dependencias y bloqueos del Día 2; están bajo control o se ajustó la misión.
 - [ ] El profesor aprobó el alcance y la seguridad, o registró observaciones y una alternativa viable.
 
 **Estado del gate:** [APROBADO / APROBADO CON CONDICIONES / REPLANIFICAR].
 
-**Condiciones, responsables, fecha y próxima decisión:** [ ... ]
+**Condiciones iniciales, Valentina, Abril y Santino, fecha:26/10/2026** [ ... ]
 
 **Revisor docente:** [ ... ] · **Enlace a commit/PR:** [ ... ]
 
