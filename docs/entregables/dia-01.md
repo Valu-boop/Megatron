@@ -30,7 +30,7 @@ revision_docente: "PENDIENTE"
 | Zonas segregadas por riesgo | [Vuelo / herramientas / tránsito AMR / ensayo de pista] |
 | Ubicación de materiales y resguardo nocturno | [Gabinete/estante/inventario; responsable] |
 | Plan de sustitución si falla el espacio | [Cubículos de Inge. ] |
-| Instructor o supervisor presente en la sesión | [Camilo / Camilo Duqe] |
+| Instructor o supervisor presente en la sesión | [Camilo / Camilo Duque] |
 
 > ⛔ **No se permite avanzar a pruebas físicas sin dōjō concreto y autorización del responsable.** No inventar salón, número de laboratorio ni recursos que no hayan sido confirmados.
 
