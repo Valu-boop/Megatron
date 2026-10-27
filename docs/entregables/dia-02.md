@@ -3,9 +3,9 @@ kaizen_dojo: "2026"
 formato: "Entregable diario G2"
 evidencia: "E2"
 dia: 2
-responsable_registro: "equipo"
+responsable_registro: "Megatron"
 estado: "PENDIENTE"
-fecha: "AAAA-MM-DD"
+fecha: "27/10/2026"
 revision_docente: "PENDIENTE"
 ---
 
@@ -15,13 +15,13 @@ revision_docente: "PENDIENTE"
 
 ## 0 · Identificación y continuidad
 
-| Campo | Dato |
+| Campo | Dato :
 |---|---|
-| Fecha, equipo, misión y plataforma | [...] |
-| Dōjō real y mesa/zona utilizada | [edificio, sala/taller y puesto] |
-| Estado del gate E1 / cambios desde D1 | [aprobado / condiciones + acuerdo] |
-| Kit por integrante / compromisos modificados | [enlaces relativos y motivo de modificación] |
-| Materiales recibidos y pendientes | [IDs MAT del inventario; responsable] |
+| 27/10/2026, Megatron, Hacer un mini sumo funcional y plataforma: Github | [...] |
+| Dōjō real y mesa/zona utilizada | [Laboratorio de electronica] |
+| Estado del gate E1 / cambios desde D1 | [Todos de acuerdo y contruyendo el mini segun lo planeado] |
+| Kit por integrante / compromisos modificados | [Compromisos por integrante iguales, material completo por Abril y Santino, algunas piezas de Camilo] |
+| Materiales recibidos y pendientes | [IDs MAT del inventario; Abril] |
 | Objetivo técnico del Día 2 | [qué versión funcional mínima V1 se probará hoy] |
 
 ## 1 · Ruta de las actividades de hoy (180 min)
