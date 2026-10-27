@@ -30,9 +30,7 @@ revision_docente: "PENDIENTE"
 |---|---:|---|
 | Revisión de misión y compromisos | 0–15 | [Misiones iniciadas: Santino (parte mecanica)] |
 | Microlección aplicada | 15–35 | [Técnica: Soldadura de cables al motor, Recurso:Un pedazo de cable soldado a un motor, Pregunta: ¿Por qué es importante asegurar bien la soldadura y aislar los cables antes de conectar la batería?  ] |
-| Katas de integración | 35–105 | [Valentina: Imprimio la base del mini sumo, buscocomponentes faltantes, pelo y soldo cables.
-Abril: Modifico cables que ya estaban puestos en los motores y agrego unos nuevos. 
-Santino: Acomodo los componentes en sus respectivos lugares y los soldó, listos para probar en el día 3 ] |
+| Katas de integración | 35–105 | [Valentina: Imprimio la base del mini sumo, buscocomponentes faltantes, pelo y soldo cables. Abril: Modifico cables que ya estaban puestos en los motores y agrego unos nuevos.  Santino: Acomodo los componentes en sus respectivos lugares y los soldó, listos para probar en el día 3 ] |
 | Ensayos iniciales / línea base | 105–145 | [ensayos pendientes, mañana en el día 3 comenzaremos las pruebas] |
 | Consolidación de evidencia | 145–170 | [ archivo CAD del github con modificaciones] |
 | Gate E2 | 170–180 | [Objetivo: Tener un buen armado mecanico] |
@@ -45,7 +43,7 @@ Santino: Acomodo los componentes en sus respectivos lugares y los soldó, listos
 |---|---|---|---|---|---|---|
 | [Abril] | [MS03] | [Kata 2] | [Soldadura a las terminales del motor ] | [`../../codigo/...`] | [probado] | [Peso del chasis (Santino).]
 |[Santino] | [MS03] | [Kata 2] | [Ensamble del chasis] | [`../../codigo/...`] | [probado] | [Impresion de la base (Valentina).]
-[Valentina] | [MS03] | [Kata 2] | [Impresión y diseño CAD] | [`../../codigo/...`] | [probado] | [.]
+[Valentina] | [MS03] | [Kata 2] | [Impresión y diseño CAD] | [`../../codigo/...`] | [probado] | [Diseño CAD]
 
 ## 3 · Estado de integración V1
 
