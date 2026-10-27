@@ -87,14 +87,14 @@ Completar también [`pruebas/protocolo.md`](../../pruebas/protocolo.md) y regist
 
 | Fallo o cuello de botella observado | Hipótesis preliminar | Prioridad | Responsable | Material / apoyo necesario |
 |---|---|---|---|---|
-| [...] | [...] | [...] | [...] | [...] |
+| [Cables mal soldados] | [El material que nos prestaron tenia cables cortados y otros mal soldados] | [Dessoldar los cables unidos al motor y otros componentes] | [Todos] | [Cables nuevos] |
 
 - [X] Hay prototipo V1, subsistema funcional verificable o fallo reproducible con condiciones registradas.
 - [ ] Existen archivos fuente o evidencia técnica enlazada, además de videos de uso controlado cuando correspondan.
 - [ ] Hay protocolo reproducible y valores basales con unidad o justificación de lo que no pudo medirse.
-- [ ] Cada alumno actualizó su [E2 personal](../../participantes/_plantilla/dias/E2.md) con contribución propia y límite de capacidad actual.
+- [X] Cada alumno actualizó su [E2 personal](../../participantes/_plantilla/dias/E2.md) con contribución propia y límite de capacidad actual.
 - [ ] Se mantuvieron límites de seguridad y protección de datos.
 
-**Gate E2:** [APROBADO]. **Revisor:** [...] **Fecha:** [...].
+**Gate E2:** [APROBADO]. **Revisor:** [...] **Fecha:** [27/10/2026].
 
-**Próxima prioridad de Kaizen 1:** [...]. **Enlace al commit/PR:** [...].
+**Próxima prioridad de Kaizen 1:** [Revisión del funcionamiento de la electronica]. **Enlace al commit/PR:** [...].
