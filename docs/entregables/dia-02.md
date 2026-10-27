@@ -17,41 +17,45 @@ revision_docente: "PENDIENTE"
 
 | Campo | Dato :
 |---|---|
-| 27/10/2026, Megatron, Hacer un mini sumo funcional y plataforma: Github | [...] |
+|  | [27/10/2026, Megatron, Hacer un mini sumo funcional y plataforma: Github] |
 | Dōjō real y mesa/zona utilizada | [Laboratorio de electronica] |
 | Estado del gate E1 / cambios desde D1 | [Todos de acuerdo y contruyendo el mini segun lo planeado] |
 | Kit por integrante / compromisos modificados | [Compromisos por integrante iguales, material completo por Abril y Santino, algunas piezas de Camilo] |
-| Materiales recibidos y pendientes | [IDs MAT del inventario; Abril] |
-| Objetivo técnico del Día 2 | [qué versión funcional mínima V1 se probará hoy] |
+| Materiales recibidos y pendientes | [IDs MAT del inventario; Abril. Material pendiente: ferrul] |
+| Objetivo técnico del Día 2 | [Impresión 3D de la base y armado de la electronica] |
 
 ## 1 · Ruta de las actividades de hoy (180 min)
 
 | Bloque | Minutos | Registro requerido / evidencia |
 |---|---:|---|
-| Revisión de misión y compromisos | 0–15 | [pactos; bloqueos abiertos y resueltos] |
-| Microlección aplicada | 15–35 | [técnica, recurso, ejemplo, pregunta clave] |
-| Katas de integración | 35–105 | [quién realizó qué kata; archivo o foto de su aporte] |
-| Ensayos iniciales / línea base | 105–145 | [protocolo, ensayos, valores y unidad] |
-| Consolidación de evidencia | 145–170 | [commits, CAD, logs y versión V1] |
-| Gate E2 | 170–180 | [aprobación y objetivos para Kaizen 1] |
+| Revisión de misión y compromisos | 0–15 | [Misiones iniciadas: Santino (parte mecanica)] |
+| Microlección aplicada | 15–35 | [Técnica: Soldadura de cables al motor, Recurso:Un pedazo de cable soldado a un motor, Pregunta: ¿Por qué es importante asegurar bien la soldadura y aislar los cables antes de conectar la batería?  ] |
+| Katas de integración | 35–105 | [Valentina: Imprimio la base del mini sumo, buscocomponentes faltantes, pelo y soldo cables.
+Abril: Modifico cables que ya estaban puestos en los motores y agrego unos nuevos. 
+Santino: Acomodo los componentes en sus respectivos lugares y los soldó, listos para probar en el día 3 ] |
+| Ensayos iniciales / línea base | 105–145 | [ensayos pendientes, mañana en el día 3 comenzaremos las pruebas] |
+| Consolidación de evidencia | 145–170 | [ archivo CAD del github con modificaciones] |
+| Gate E2 | 170–180 | [Objetivo: Tener un buen armado mecanico] |
 
 ## 2 · Microlección e integración por alcances
 
-**Tema que resolvió un problema real del equipo:** [...]. **Material / referencia utilizada:** [...].
+**Tema que resolvió un problema real del equipo:** [Megatron]. **Material / referencia utilizada:** [Cambio de cables del motor y aislamiento de los mismos.].
 
 | Alias | Alcance | Kata seleccionado / nuevo | Acción técnica ejecutada | Archivo, commit o plano | Estado (pendiente/probado/bloqueado) | Dependencia de otro integrante |
 |---|---|---|---|---|---|---|
-| [@alias] | [MS03] | [Kata 2] | [integré X con Y] | [`../../codigo/...`] | [...] | [sensor/calibración de @...] |
+| [Abril] | [MS03] | [Kata 2] | [Soldadura a las terminales del motor ] | [`../../codigo/...`] | [probado] | [Peso del chasis (Santino).]
+|[Santino] | [MS03] | [Kata 2] | [Ensamble del chasis] | [`../../codigo/...`] | [probado] | [Impresion de la base (Valentina).]
+[Valentina] | [MS03] | [Kata 2] | [Impresión y diseño CAD] | [`../../codigo/...`] | [probado] | [.]
 
 ## 3 · Estado de integración V1
 
 | Subsistema | Entrada | Salida esperada | Responsable | Prueba de integración y observación | Evidencia |
 |---|---|---|---|---|---|
-| Estructura/mecánica | [...] | [...] | [...] | [...] | [...] |
-| Energía y accionamiento | [...] | [...] | [...] | [...] | [...] |
-| Sensores/percepción | [...] | [...] | [...] | [...] | [...] |
-| Control/software | [...] | [...] | [...] | [...] | [...] |
-| Integración global | [...] | [...] | [...] | [...] | [...] |
+| Estructura/mecánica | [2 motores, 2 llantas, 4 sensores IR, 2 sensores QTR, nagavaja, ] | [Chasis completo y funcional] | [Santino] | [Piezas colocadas en su lugar, observación: Cables mal soldados] | [...] |
+| Energía y accionamiento | [Bateria, cables y driver ] | [Movimiento de las llantas] | [Valentina] | [Encender el robot y probar que los motores giren hacia adelante, atrás y en giros.] | [...] |
+| Sensores/percepción | [Sensores IR] | [Señal de los bordos del Dojo] | [Abril] | [Concetar lo sensores y poner el mini en el Dojo] | [...] |
+| Control/software | [Codigo] | [Enviar señales al driver del motor] | [..] | [Cargar el codigo y revisar que las variables coincidan con lo programado] | [...] |
+| Integración global | [Todo lo anterior en conjunto] | [Un robot autonomo] | [Valentina, Santino y Abril] | [Poner el mini el el dojo y probarlo] | [...] |
 
 **Versión identificable:** [commit SHA/etiqueta/firmware/CAD/paquete; no usar solo “última versión”]. **Comportamiento que SÍ demuestra V1:** [...]. **Lo que aún falla:** [...].
 
@@ -87,12 +91,12 @@ Completar también [`pruebas/protocolo.md`](../../pruebas/protocolo.md) y regist
 |---|---|---|---|---|
 | [...] | [...] | [...] | [...] | [...] |
 
-- [ ] Hay prototipo V1, subsistema funcional verificable o fallo reproducible con condiciones registradas.
+- [X] Hay prototipo V1, subsistema funcional verificable o fallo reproducible con condiciones registradas.
 - [ ] Existen archivos fuente o evidencia técnica enlazada, además de videos de uso controlado cuando correspondan.
 - [ ] Hay protocolo reproducible y valores basales con unidad o justificación de lo que no pudo medirse.
 - [ ] Cada alumno actualizó su [E2 personal](../../participantes/_plantilla/dias/E2.md) con contribución propia y límite de capacidad actual.
 - [ ] Se mantuvieron límites de seguridad y protección de datos.
 
-**Gate E2:** [APROBADO / CONDICIONADO / REPLANIFICAR]. **Revisor:** [...] **Fecha:** [...].
+**Gate E2:** [APROBADO]. **Revisor:** [...] **Fecha:** [...].
 
 **Próxima prioridad de Kaizen 1:** [...]. **Enlace al commit/PR:** [...].
