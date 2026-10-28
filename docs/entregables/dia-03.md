@@ -3,9 +3,9 @@ kaizen_dojo: "2026"
 formato: "Entregable diario G2"
 evidencia: "E3"
 dia: 3
-responsable_registro: "equipo"
+responsable_registro: "Megatron"
 estado: "PENDIENTE"
-fecha: "AAAA-MM-DD"
+fecha: "28/10/2026"
 revision_docente: "PENDIENTE"
 ---
 
@@ -15,24 +15,24 @@ revision_docente: "PENDIENTE"
 
 ## 0 · Contexto de investigación de hoy
 
-**Fecha/equipo/misión:** [...] · **Dōjō exacto:** [...] · **Versión de partida:** [commit/etiqueta V1] · **Protocolo E2:** [enlace].
+**Fecha/equipo/misión:** [28/10/2026] · **Dōjō exacto:** [...] · **Versión de partida:** [commit/etiqueta V1] · **Protocolo E2:** [enlace].
 
 ## 1 · Ruta del Día 3 (180 min)
 
 | Actividad | Minutos | Evidencia a registrar |
 |---|---:|---|
-| Analizar un fallo real / demostración | 0–15 | [fallo observado; condiciones] |
-| Diseño del experimento | 15–40 | [hipótesis, variable, controles, riesgo] |
-| Diagnóstico del prototipo V1 | 40–80 | [causa probable y prueba discriminante] |
-| Kaizen 1: cambio técnico | 80–125 | [diff, firmware, CAD, integración] |
+| Analizar un fallo real / demostración | 0–15 | [fallo observado; Se desarmo un sensor Ir] |
+| Diseño del experimento | 15–40 | [hipótesis: Los sensores eran algo antiguos, riesgo: Falso monitoreo para el movimiento del robot] |
+| Diagnóstico del prototipo V1 | 40–80 | [causa: Antiguedad y prueba discriminante: Concetamos los sensores para probarlo] |
+| Kaizen 1: cambio técnico | 80–125 | [Prueba de los sensores] |
 | Reensayo equivalente | 125–160 | [datos crudos V1 vs K1] |
-| Documentar, debatir, reflejar | 160–180 | [conclusión y E3 personal] |
+| Documentar, debatir, reflejar | 160–180 | [Sensores funcionales ] |
 
 ## 2 · Problema, hipótesis y trazabilidad
 
 | Campo | Completar |
 |---|---|
-| Fallo / oportunidad de mejora observada (con evidencia) | [...] |
+| Fallo / oportunidad de mejora observada (con evidencia) | [] |
 | Dónde se presenta y cuántas veces | [contexto + n, no generalizar] |
 | Diagnóstico: causas alternativas que se consideraron | [...] |
 | Hipótesis contrastable: **si cambio X, espero que Y ocurra porque Z** | [...] |
