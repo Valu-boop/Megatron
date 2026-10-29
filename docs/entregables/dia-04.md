@@ -4,8 +4,8 @@ formato: "Entregable diario G2"
 evidencia: "E4"
 dia: 4
 responsable_registro: "equipo"
-estado: "PENDIENTE"
-fecha: "AAAA-MM-DD"
+estado: "Megatron"
+fecha: "29/10/2026"
 revision_docente: "PENDIENTE"
 ---
 
@@ -15,7 +15,7 @@ revision_docente: "PENDIENTE"
 
 ## 0 · Contexto
 
-**Fecha y dōjō:** [...] · **Equipo/misión:** [...] · **Versiones trazables:** V1 [id], K1 [id] y K2 [id pendiente].
+**Fecha y dōjō:** [29/10/2026] · **Equipo/misión:** [...] · **Versiones trazables:** V1 [id], K1 [id] y K2 [id pendiente].
 
 ## 1 · Ruta de actividades del Día 4 (180 min)
 
